@@ -1,4 +1,4 @@
-\documentclass[11pt]{article} % 11 pt font is more exciting
+\documentclass[12pt]{article}
 
 % Begin Formatting and Package Inclusion
 \usepackage[top=0.8in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
@@ -79,23 +79,6 @@
 %
 %\vspace{-5pt}
 
-% Begin Education Section
-\Heading{EDUCATION}
-
-\begin{flushleft}
-
-  {\bf Purdue Univerity}, West Lafayette, IN \\
-  Bachelor of Science in Computer Engineering \hfill May 2016 \\
-  \hfill 3.94/4.00 \\
-
-  {\bf Relevant Coursework} \\
-  \SpacedBullet{ASIC Design Lab; Data Structures; Intro to Computer Security, Operating Systems}
-  \SpacedBullet{Microprocessor System Design and Interfacing; Compilers; Computer Architecture}
-
-\end{flushleft}
-% End Education Section
-\vspace{-5pt}
-
 
 % Begin Experience Section
 \Heading{EXPERIENCE}
@@ -103,7 +86,10 @@
 \begin{flushleft}
 
   \Activity{DellEMC}{Software Engineer II}{July 2016}{Present}
-  \SpacedBullet{\hfill Santa Clara, CA}
+  \SpacedBullet{Facilitate data movement to object storage in the cloud \hfill Santa Clara, CA}
+  \SpacedBullet{Created a generic S3 interface for data movement to S3 compatible object stores}
+  \SpacedBullet{Designed a mock C2S Access Portal to test AWS GovCloud capabilities}
+  \SpacedBullet{Leverage Domo's data analytics capabilities to locate sales anomalies}
 
   \vspace{11pt}
 
@@ -124,37 +110,46 @@
 \vspace{-5pt}
 
 
+
 % Begin Projects Section
 \Heading{PROJECTS}
 
 \begin{flushleft}
 
-  % School (Group)
-  \ActivityWithLink{https://github.com/murph141/Triple_DES}{Triple DES}{Team Member}{Spring 2015}
-  \SpacedBullet{Constructed a Triple DES implementation using SystemVerilog}
-  \SpacedBullet{Created an AHB-Lite Interface for use in an ASIC design}
+  \ActivityWithLink{http://eudyptula-challenge.org/}{Eudyptula Challenge}{Player}{December 2016 -- Present}
+  \SpacedBullet{Increase my knowledge of the Linux kernel through various challenges}
+  \SpacedBullet{Familiarize myself with interfacing to an operating system kernel}
 
   \vspace{11pt}
 
+  \ActivityWithLink{https://cryptopals.com/}{Cryptopals Crypto Challenges}{Player}{November 2016 -- Present}
+  \SpacedBullet{Improve my cryptography knowledge through various programming exercises}
+  \SpacedBullet{Understand attacks on insecure crypto}
+
+  \vspace{11pt}
+
+  \ActivityWithLink{https://io.netgarage.org/}{IO Wargame}{Player}{July 2016 -- Present}
+  \SpacedBullet{Exploited computer security issues to progress through different levels}
+  \SpacedBullet{Broaden my knowledge of low level system security}
+
+  \vspace{11pt}
+
+  \ActivityWithLink{https://engineering.purdue.edu/ece477/Archive/2016/Spring/477grp5/}{Pourover Coffee Maker}{Team Member}{January 2016 -- May 2016}
+  \SpacedBullet{Developed a fully automated coffee maker that interfaced to a phone app via Bluetooth}
+  \SpacedBullet{Constructed a DC printed circuit board with multiple peripherals}
+
   % School (Group)
-  \ActivityWithLink{https://github.com/murph141/LED3}{LED{\textsuperscript 3}}{Team Member}{Fall 2014}
-  \SpacedBullet{Developed a cube comprised of 512 LEDs}
-  \SpacedBullet{Designed a printed circuit board (PCB) to route electrical components}
+  %\ActivityWithLink{https://github.com/murph141/Triple_DES}{Triple DES}{Team Member}{Spring 2015}
+  %\SpacedBullet{Constructed a Triple DES implementation using SystemVerilog}
+  %\SpacedBullet{Created an AHB-Lite Interface for use in an ASIC design}
+
+  %\vspace{11pt}
+
+  % School (Group)
+  %\ActivityWithLink{https://github.com/murph141/LED3}{LED{\textsuperscript 3}}{Team Member}{Fall 2014}
+  %\SpacedBullet{Developed a cube comprised of 512 LEDs}
+  %\SpacedBullet{Designed a printed circuit board (PCB) to route electrical components}
   %\SpacedBullet{Programmed on a Freescale 9S12C32 microcontroller}
-
-  \vspace{11pt}
-
-  % Personal (Individual)
-  \ActivityWithLink{https://github.com/murph141/AlteraLabs}{Altera DE1-SoC FPGA}{Individual}{Summer 2014}
-  \SpacedBullet{Expanded my Verilog and Quartus II software knowledge}
-  \SpacedBullet{Completed Digital Logic labs through Altera's University Program}
-
-  \vspace{11pt}
-
-  % Personal (Group)
-  %\ActivityWithLink{https://github.com/murph141/BoilerMake}{ImgurUp}{Team Member}{February 2014}
-  %\SpacedBullet{Leveraged the Pipl and Imgur APIs to gather information on a specified person}
-  %\SpacedBullet{Written with a partner for the BoilerMake Hackathon}
 
 \end{flushleft}
 % End Projects Section
@@ -162,36 +157,20 @@
 
 
 % Begin Activities Section
-\Heading{ACTIVITIES}
+%\Heading{ACTIVITIES}
 
-\begin{flushleft}
+%\begin{flushleft}
 
-  \ActivityWithLink{https://www.boilermake.org}{BoilerMake}{Executive Board Member}{Spring 2015 -- Fall 2015}
-  \SpacedBullet{Planned Purdue's hackathon (BoilerMake) for Fall 2015} % Need to come up with a better sentence for this
+  %\ActivityWithLink{https://www.boilermake.org}{BoilerMake}{Executive Board Member}{Spring 2015 -- Fall 2015}
+  %\SpacedBullet{Planned Purdue's hackathon (BoilerMake) for Fall 2015} % Need to come up with a better sentence for this
   %\SpacedBullet{Helped run the 36 hour hackathon the weekend of October 16th}
-  \SpacedBullet{Improved upon the existing BoilerMake SBC design with a team} % Project fell through, but there is a working design for next year
-
-  \vspace{11pt}
-
-  \ActivityWithLink{https://engineering.purdue.edu/ECESS}{ECE Student Society}{Mentor}{Fall 2013 -- Spring 2015}
-  \SpacedBullet{Provided advice related to coursework and employment to three mentees}
-  \SpacedBullet{Networked with ECE students and professors at social and professional events}
+  %\SpacedBullet{Improved upon the existing BoilerMake SBC design with a team} % Project fell through, but there is a working design for next year
 
   %\vspace{11pt}
 
-  %\Activity{Halberdier Club}{Committee Leader}{Fall 2012}{Spring 2014}
-  %\SpacedBullet{Supervised the Diversity Committee and created committee-related bills}
-  %\SpacedBullet{Allocated and managed over \$20,000 for hall events and programs}
-
-  %\vspace{11pt}
-
-  %\Activity{Purdue Society of Professional Engineers}{Committee Member}{Spring 2014}{Fall 2014}
-  %\SpacedBullet{Communicate with professors interested in hiring students for summer research}
-  %\SpacedBullet{Managed sources of income and expenses for Research Roundtable}
-
-\end{flushleft}
+%\end{flushleft}
 % End Activities Section
-\vspace{-5pt}
+%\vspace{-5pt}
 
 
 % Begin Skills Section
@@ -200,53 +179,29 @@
 \begin{flushleft}
 
   % I've dabbled in Haskell, Assembly (MIPS, x86, 9S12C32), Javascript, Java, C++, and more
-  \SpacedBullet{C (Proficient), Python (Familiar), Java (Familiar), SystemVerilog (Familiar), C++ (Familiar)}
-  \SpacedBullet{GDB, Git, \LaTeX, \textsc{MATLAB}, ModelSim, Vim}
+  \SpacedBullet{{\bf Languages:} C (Proficient), Python (Familiar), Java (Familiar), SystemVerilog (Familiar)}
+  \SpacedBullet{{\bf Tools:} GDB (Proficient), Git, \LaTeX, Kubernetes (Familiar), Vim}
+  \SpacedBullet{{\bf Cloud Platforms:} AWS (Familiar), Azure (Familiar)}
 
 \end{flushleft}
 % End Skills Section
 \vspace{-5pt}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Stuff I am currently reading:
-% Hacking: The Art of Explotation (Done, exercises remaining)
-% CLRS
-% Cracking the Coding Interview
-% Shellcoder's Handbook
-% The Simple Art of SoC Design (Done)
-% How to Win Friends and Influence People (Done)
-% The Autobiography of Benjamin Franklin
-% The Martian (Done)
-% The Art of War
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin Education Section
+\Heading{EDUCATION}
 
+\begin{flushleft}
 
-% Begin Awards and Honors Section
-%\Heading{AWARDS AND HONORS}
+  {\bf Purdue Univerity}, West Lafayette, IN \\
+  Bachelor of Science in Computer Engineering \hfill May 2016 \\
+%  \hfill 3.94/4.00 \\
 %
-%\begin{flushleft}
-%
-%  Walter Jones Memorial Scholar \hfill Fall 2015 -- Spring 2016 \\
-%  Eli Shay ECE Scholar \hfill Fall 2013 -- Spring 2015 \\
-%  Karl H. Bollenbach Memorial Scholar \hfill Fall 2014 -- Spring 2015 \\
-%  Rockwell Collins Scholar \hfill Spring 2014 \\
-%  Alpha Lambda Delta Phi Eta Sigma Freshman Honor Society \hfill Spring 2013 -- Present \\
-%
-%\end{flushleft}
-% End Awards and Honors Section
+%  {\bf Relevant Coursework} \\
+%  \SpacedBullet{ASIC Design Lab; Data Structures; Intro to Computer Security, Operating Systems}
+%  \SpacedBullet{Microprocessor System Design and Interfacing; Compilers; Computer Architecture}
 
-
-% Begin International Experience Section
-%\Heading{INERNATIONAL EXPERIENCE}
-%
-%\begin{flushleft}
-%
-%  \Activity{Brussels, Belgium}{}{August 2008}{June 2009}
-%  \SpacedBullet{Attended the International School of Brussels (ISB)}
-%  \SpacedBullet{Gained exposure to various countries and cultures}
-%
-%\end{flushleft}
-% End Internatonal Experience Section
+\end{flushleft}
+% End Education Section
 
 \end{document}
